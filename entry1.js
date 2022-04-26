@@ -1,7 +1,6 @@
 var express = require("express");
 var bodyParser = require('body-parser');
 var fs = require('fs');
-const puppeteer = require('puppeteer');
 
  //use the application off of express.
  var app = express();
