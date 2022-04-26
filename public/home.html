@@ -1,0 +1,125 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <script src="./app.js"></script>
+  <style>
+    h1 {
+      text-align: center;
+    }
+
+    p {
+      text-align: center;
+    }
+
+    div {
+      text-align: center;
+    }
+
+    form {
+      text-align: center;
+      background-color: blanchedalmond;
+    }
+
+    .ttt {
+      background-color: cadetblue;
+    }
+
+    .yyy {
+      text-align: center;
+    }
+
+    .SerDes {
+      width: 375px;
+      height: 100px;
+    }
+  </style>
+</head>
+
+<body>
+  <form
+    action="/view" method="POST">  
+  <h1 class="ttt">Complete Your Portfolio</h1>
+  <fieldset>
+    <label for="fname">First name:</label><br />
+    <input type="text" id="fname" name="fname" size="50" /><br />
+    <label for="lname">Last name:</label><br />
+    <input type="text" id="lname" name="lname" size="50" /><br /><br />
+
+    <label for="serviceprovide">Services provided by you :</label><br /><br />
+
+    <label for="service1">Service</label><br />
+    <input type="text" id="service1" name="service1" size="50" /><br />
+    <label for="description1">Description</label><br />
+    <input type="text" id="description1" name="description1" class="SerDes" /><br /><br />
+
+    <label for="service2">Service</label><br />
+    <input type="text" id="service2" name="service2" size="50" /><br />
+    <label for="description2">Description</label><br />
+    <input type="text" id="description2" name="description2" class="SerDes" /><br /><br />
+
+    <label for="service3">Service</label><br />
+    <input type="text" id="service3" name="service3" size="50" /><br />
+    <label for="description3">Description</label><br />
+    <input type="text" id="description3" name="description3" class="SerDes" /><br /><br />
+
+    <label for="service4">Service</label><br />
+    <input type="text" id="service4" name="service4" size="50" /><br />
+    <label for="description4">Description</label><br />
+    <input type="text" id="description4" name="description4" class="SerDes" /><br /><br />
+
+    <label for="projectdone">Mention your recent project details:</label><br /><br />
+
+    <label for="project1">Project</label><br />
+    <input type="text" id="project1" name="project1" size="50" /><br />
+    <label for="prodescription1">Description</label><br />
+    <input type="text" id="prodescription1" name="prodescription1" class="SerDes" /><br /><br />
+
+    <label for="project2">Project</label><br />
+    <input type="text" id="project2" name="project2" size="50" /><br />
+    <label for="prodescription2">Description</label><br />
+    <input type="text" id="prodescription2" name="prodescription2" class="SerDes" /><br /><br />
+
+    <label for="project3">Project</label><br />
+    <input type="text" id="project3" name="project3" size="50" /><br />
+    <label for="prodescription3">Description</label><br />
+    <input type="text" id="prodescription3" name="prodescription3" class="SerDes" /><br /><br />
+
+    <label for="project4">Project</label><br />
+    <input type="text" id="project4" name="project4" size="50" /><br />
+    <label for="prodescription4">Description</label><br />
+    <input type="text" id="prodescription4" name="prodescription4" class="SerDes" /><br /><br />
+
+    <label for="aboutyour">About Yourself:</label><br /><br />
+    <label for="whoyou"> Who are you </label><br />
+    <input type="text" id="whoyou" name="whoyou" size="50" /><br />
+    <label for="whodes">Your Job Description:</label><br />
+    <input type="text" id="whodes" name="whodes" class="SerDes" /><br /><br />
+
+    <label for="contact">ContactInfo:</label><br /><br />
+    <label for="contact1"> Contact number 1: </label><br />
+    <input type="text" id="contact1" name="contact1" size="50" /><br />
+    <label for="conatact2"> Contact number 2: </label><br />
+    <input type="text" id="contact2" name="contact2" size="50" /><br />
+
+    <label for="email">EmailInfo:</label><br /><br />
+    <label for="email1"> Email number 1 </label><br />
+    <input type="text" id="email1" name="email1" size="50" /><br />
+    <label for="email2"> Email number 2 </label><br />
+    <input type="text" id="email2" name="email2" size="50" /><br />
+
+    <label for="address">AddressInfo:</label><br /><br />
+    <label for="address"> Your current address </label><br />
+    <input type="text" id="address" name="address" size="50" /><br />
+
+    <input type="submit" value="Submit the details" /><br /><br />
+    <button type ="reset">Reset</button>
+    </fieldset>
+    <script  type="module" src="./app.js"></script>
+  </form>
+</body>
+
+</html>
